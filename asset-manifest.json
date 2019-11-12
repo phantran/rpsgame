@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rpsgame/static/css/main.90ed0244.chunk.css",
+    "main.js": "/rpsgame/static/js/main.8e0e2e8d.chunk.js",
+    "main.js.map": "/rpsgame/static/js/main.8e0e2e8d.chunk.js.map",
+    "runtime-main.js": "/rpsgame/static/js/runtime-main.a687775b.js",
+    "runtime-main.js.map": "/rpsgame/static/js/runtime-main.a687775b.js.map",
+    "static/js/2.0833c061.chunk.js": "/rpsgame/static/js/2.0833c061.chunk.js",
+    "static/js/2.0833c061.chunk.js.map": "/rpsgame/static/js/2.0833c061.chunk.js.map",
+    "index.html": "/rpsgame/index.html",
+    "precache-manifest.24fd085b8b5ce107abcb19fe34acc4d3.js": "/rpsgame/precache-manifest.24fd085b8b5ce107abcb19fe34acc4d3.js",
+    "service-worker.js": "/rpsgame/service-worker.js",
+    "static/css/main.90ed0244.chunk.css.map": "/rpsgame/static/css/main.90ed0244.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a687775b.js",
+    "static/js/2.0833c061.chunk.js",
+    "static/css/main.90ed0244.chunk.css",
+    "static/js/main.8e0e2e8d.chunk.js"
+  ]
+}
