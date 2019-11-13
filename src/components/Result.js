@@ -1,22 +1,22 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import FlexContainer from '../elements/FlexContainer';
-import { H1 } from '../elements/Text';
-import Button from '../elements/Button';
-import { connect } from 'react-redux';
-import { setNewGame } from '../actions/new';
-import { P1WIN, P2WIN, DRAW } from '../constants';
-import { PLAYER_VS_COMPUTER, COMPUTER_VS_COMPUTER } from '../constants';
+import React from "react";
+import PropTypes from "prop-types";
+import FlexContainer from "../elements/FlexContainer";
+import { H1 } from "../elements/Text";
+import Button from "../elements/Button";
+import { connect } from "react-redux";
+import { setNewGame } from "../actions/new";
+import { P1WIN, P2WIN, DRAW } from "../constants";
+import { PLAYER_VS_COMPUTER, COMPUTER_VS_COMPUTER } from "../constants";
 
-const Result = ({ result, playMode, setNewGame }) => {
+export const Result = ({ result, playMode, setNewGame }) => {
   let displayed_result = null;
   function resetAnimation() {
-    let elem = document.getElementById('result');
+    let elem = document.getElementById("result");
     if (elem !== null) {
-      elem.classList.remove('shake-horizontal');
+      elem.classList.remove("shake-horizontal");
       // This line is used to reset animation
       void elem.offsetWidth;
-      elem.classList.add('shake-horizontal');
+      elem.classList.add("shake-horizontal");
     }
   }
 
@@ -89,7 +89,4 @@ const mapStateToProps = state => ({
   playMode: state.mode.playMode
 });
 
-export default connect(
-  mapStateToProps,
-  { setNewGame }
-)(Result);
+export default connect(mapStateToProps, { setNewGame })(Result);

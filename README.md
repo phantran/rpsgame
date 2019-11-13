@@ -53,8 +53,8 @@ There are 3 main components in the UI of this game.
 
 ### `From functional perspective`
 
-1. When either the Player Vs Computer or Computer Vs Computer button is clicked, the game change is changed to the corresponding mode.
-2. In the Player and Computer mode, the game starts when the player choose a move from rock, paper, or scissors icon. In the Computer vs Computer mode, the game starts when the user clicks on the Play button on the top of the play area component.
+1. When either the Player Vs Computer or Computer Vs Computer button is clicked, the game mode is changed to the corresponding mode.
+2. In the Player and Computer mode, the game starts when the player chooses a move from either rock, paper, or scissors icon. In the Computer vs Computer mode, the game starts when the user clicks on the Play button on the top of the play area component.
 3. The result of a game (win, lose, or draw) is displayed in the result area. By clicking on the Play Again button, the game will be restarted to a completely new game.
 
 ## Technical constraints

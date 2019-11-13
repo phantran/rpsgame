@@ -1,15 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Options from './Options';
-import PlayerVsCom from './PlayerVsCom';
-import ComVsCom from './ComVsCom';
-import Result from './Result';
-import MainContainer from '../elements/MainContainer';
-import { connect } from 'react-redux';
+import React from "react";
+import PropTypes from "prop-types";
+import Options from "./Options";
+import PlayerVsCom from "./PlayerVsCom";
+import ComVsCom from "./ComVsCom";
+import Result from "./Result";
+import MainContainer from "../elements/MainContainer";
+import { connect } from "react-redux";
 
-import { PLAYER_VS_COMPUTER, COMPUTER_VS_COMPUTER } from '../constants';
+import { PLAYER_VS_COMPUTER, COMPUTER_VS_COMPUTER } from "../constants";
 
-const MainScreen = ({ playMode }) => {
+export const MainScreen = ({ playMode }) => {
   let playarea;
   if (playMode === PLAYER_VS_COMPUTER) {
     playarea = <PlayerVsCom />;

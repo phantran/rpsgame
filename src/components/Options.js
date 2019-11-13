@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Button from '../elements/Button';
-import { H1 } from '../elements/Text';
-import FlexContainer from '../elements/FlexContainer';
-import { connect } from 'react-redux';
-import { setPlayMode } from '../actions/mode';
-import { PLAYER_VS_COMPUTER, COMPUTER_VS_COMPUTER } from '../constants';
+import React from "react";
+import PropTypes from "prop-types";
+import Button from "../elements/Button";
+import { H1 } from "../elements/Text";
+import FlexContainer from "../elements/FlexContainer";
+import { connect } from "react-redux";
+import { setPlayMode } from "../actions/mode";
+import { PLAYER_VS_COMPUTER, COMPUTER_VS_COMPUTER } from "../constants";
 
-const Options = ({ setPlayMode, playMode }) => {
+export const Options = ({ setPlayMode, playMode }) => {
   return (
     <FlexContainer direction="column" align="center">
       <div>
@@ -16,7 +16,7 @@ const Options = ({ setPlayMode, playMode }) => {
 
       <div>
         <Button
-          bg={playMode === PLAYER_VS_COMPUTER ? 'gradient' : 'transparent'}
+          bg={playMode === PLAYER_VS_COMPUTER ? "gradient" : "transparent"}
           onClick={e => {
             setPlayMode(PLAYER_VS_COMPUTER);
           }}
@@ -26,7 +26,7 @@ const Options = ({ setPlayMode, playMode }) => {
       </div>
       <div>
         <Button
-          bg={playMode === COMPUTER_VS_COMPUTER ? 'gradient' : 'transparent'}
+          bg={playMode === COMPUTER_VS_COMPUTER ? "gradient" : "transparent"}
           onClick={e => {
             setPlayMode(COMPUTER_VS_COMPUTER);
           }}
@@ -47,7 +47,4 @@ const mapStateToProps = state => ({
   playMode: state.mode.playMode
 });
 
-export default connect(
-  mapStateToProps,
-  { setPlayMode }
-)(Options);
+export default connect(mapStateToProps, { setPlayMode })(Options);
