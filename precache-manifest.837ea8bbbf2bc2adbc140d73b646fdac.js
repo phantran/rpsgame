@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea0487ad9126a5f51224aa437783b201",
+    "revision": "18d5ad045b844fe9151668f41e1b30bf",
     "url": "/rpsgame/index.html"
   },
   {
-    "revision": "fb998e0b26c0ad0221ee",
+    "revision": "90a9eba87148fd966588",
     "url": "/rpsgame/static/css/main.90ed0244.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rpsgame/static/js/2.0833c061.chunk.js"
   },
   {
-    "revision": "fb998e0b26c0ad0221ee",
-    "url": "/rpsgame/static/js/main.8e0e2e8d.chunk.js"
+    "revision": "90a9eba87148fd966588",
+    "url": "/rpsgame/static/js/main.0ed100d9.chunk.js"
   },
   {
     "revision": "6dab9f3e712ba731e527",
