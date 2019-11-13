@@ -21,11 +21,9 @@ const MainScreen = ({ playMode }) => {
   }
   return (
     <MainContainer>
-      <Options></Options>
-
+      <Options />
       {playarea}
-
-      <Result></Result>
+      <Result />
     </MainContainer>
   );
 };

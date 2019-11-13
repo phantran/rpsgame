@@ -1,9 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Provider } from 'react-redux';
-import MainScreen from '../../components/MainScreen';
-
+import MainScreen from './MainScreen';
+import Options from './Options';
 import configureMockStore from 'redux-mock-store';
+import MainContainer from '../elements/MainContainer';
 
 const mockStore = configureMockStore();
 const store = mockStore({});
@@ -18,8 +19,4 @@ describe('Test MainScreen Component', () => {
         </Provider>
       ))
   );
-
-  it('should render a <div />', () => {
-    expect(wrapper.find('div').length).toEqual(1);
-  });
 });
