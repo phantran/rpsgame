@@ -69,4 +69,4 @@ There are 3 main components in the UI of this game.
 
 - The component folder contains the main components of the UI of the game
 
-- Because this project uses Redux for state management, I decided to put the main logic of the game (decision of the winner) in actions folder (right before dispatch a state update to the redux store). You can find it in src/actions/result.js
+- Because this project uses Redux for state management, I decided to put the main logic of the game (decision of the winner) in actions folder (right before dispatch a state update to the redux store). It can be found it in src/actions/result.js
