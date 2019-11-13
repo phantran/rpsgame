@@ -22,11 +22,11 @@ Run this command in another terminal if you want to run the tests of this projec
 ## `Online version`
 
 An online version of this project is available at:
-phantran.github.io/rpsgame
+https://phantran.github.io/rpsgame
 
 ## `Note`
 
-Please ensure the availability of the Internet connection because some libraries provided by CDN such as Icons in Font Awesome.
+Please ensure the availability of the Internet connection because some libraries are used in this project by CDN such as Icons in Font Awesome.
 
 ## `Design Process`
 
@@ -69,4 +69,4 @@ There are 3 main components in the UI of this game.
 
 - The component folder contains the main components of the UI of the game
 
-- Because this project uses redux for state management, I decided to put the main logic of the game (decide the winner) in actions folder (right before dispatch a state update to redux store). You can find it in src/actions/result.js
+- Because this project uses Redux for state management, I decided to put the main logic of the game (decision of the winner) in actions folder (right before dispatch a state update to the redux store). You can find it in src/actions/result.js
