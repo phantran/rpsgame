@@ -19,16 +19,16 @@ You will also see any lint errors in the console.
 
 Run this command in another terminal if you want to run the tests of this project
 
-## `Online version`
+## Online version
 
 An online version of this project is available at:
 https://phantran.github.io/rpsgame
 
-## `Note`
+## Note
 
 Please ensure the availability of the Internet connection because some libraries are used in this project by CDN such as Icons in Font Awesome.
 
-## `Design Process`
+## Design Process
 
 ### `From visual perspective`
 
@@ -57,13 +57,13 @@ There are 3 main components in the UI of this game.
 2. In the Player and Computer mode, the game starts when the player choose a move from rock, paper, or scissors icon. In the Computer vs Computer mode, the game starts when the user clicks on the Play button on the top of the play area component.
 3. The result of a game (win, lose, or draw) is displayed in the result area. By clicking on the Play Again button, the game will be restarted to a completely new game.
 
-## `Technical constraints`
+## Technical constraints
 
 - This project is built by ReactJS, React-Redux for state management and Styled Components for styling and CSS management. 
 
 - With these libraries and frameworks, the goal is to ensure the extensibility and reusability of this project.
 
-## `Implementation details`
+## Implementation details
 
 - The elements folder contains reusable elements such as button, text, and line. They are styled by using styled components.
 
